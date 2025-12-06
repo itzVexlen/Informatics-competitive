@@ -1,18 +1,11 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define ll long long
 using namespace std;
 
-int n, k[31];
-void f(){
-    if((a % 10 + f(n / 10)) % 2 == 0) ;
-}
+ll n, k;
 
-void read()
-{
-}
-
-void solve()
-{
+ll chis(ll n, ll k) {
+    
 }
 
 void fastIO()
@@ -22,9 +15,20 @@ void fastIO()
     cout.tie(NULL);
 }
 
-int main()
+void read() 
 {
+    cin >> n;
+    cin >> k;
+    chis(n, k);
+}
+
+void solve() 
+{
+}
+
+int main() {
     fastIO();
     read();
     solve();
+    return 0;
 }
